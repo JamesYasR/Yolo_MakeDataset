@@ -1,0 +1,449 @@
+# ============================================
+# 图片格式 - Images
+# ============================================
+# 位图格式
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.webp
+*.ico
+*.icns
+*.raw
+*.cr2
+*.nef
+*.orf
+*.sr2
+*.arw
+*.dng
+*.raf
+*.pef
+*.x3f
+
+# 矢量图形
+*.svg
+*.eps
+*.ai
+*.psd
+*.psb
+*.cdr
+*.cgm
+*.wmf
+*.emf
+
+# 其他图像格式
+*.heic
+*.heif
+*.avif
+*.jxl
+*.exr
+*.hdr
+*.tga
+*.dds
+*.pcx
+*.pbm
+*.pgm
+*.ppm
+*.pnm
+
+# ============================================
+# 视频格式 - Videos
+# ============================================
+# 常见视频格式
+*.mp4
+*.m4v
+*.mov
+*.qt
+*.avi
+*.wmv
+*.flv
+*.f4v
+*.swf
+*.mkv
+*.webm
+*.ogv
+*.ogg
+
+# 专业/高清格式
+*.mts
+*.m2ts
+*.ts
+*.vob
+*.evo
+*.m2v
+*.mpeg
+*.mpg
+*.mp2
+*.mpe
+*.mpv
+*.m1v
+*.m4p
+
+# 编码格式
+*.3gp
+*.3g2
+*.asf
+*.dv
+*.divx
+*.xvid
+*.rm
+*.rmvb
+*.rv
+
+# 原始/工作文件
+*.r3d
+*.arri
+*.dpx
+*.cine
+*.mxf
+
+# ============================================
+# 音频格式 - Audio (可选)
+# ============================================
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.oga
+*.wma
+*.m4a
+*.opus
+*.aiff
+*.au
+*.snd
+*.ra
+*.ram
+
+# ============================================
+# 压缩/归档文件 - Archives
+# ============================================
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.tgz
+*.bz2
+*.xz
+*.lz
+*.lzma
+*.cab
+*.iso
+*.dmg
+*.pkg
+*.deb
+*.rpm
+
+# ============================================
+# 文档/办公文件 - Documents (可选)
+# ============================================
+# Microsoft Office
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.pps
+*.ppsx
+*.mdb
+*.accdb
+*.pst
+*.ost
+
+# Adobe 文档
+*.pdf
+*.indd
+*.idml
+*.pmd
+
+# 其他文档
+*.rtf
+*.odt
+*.ods
+*.odp
+*.pages
+*.numbers
+*.key
+*.epub
+*.mobi
+*.azw
+*.azw3
+
+# ============================================
+# 可执行文件/二进制文件 - Executables
+# ============================================
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.app
+*.msi
+*.msp
+*.msm
+*.jar
+*.war
+*.ear
+*.msi
+*.bat
+*.cmd
+*.sh
+
+# ============================================
+# 数据库文件 - Databases
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+*.db3
+*.mdb
+*.accdb
+*.frm
+*.ibd
+*.myd
+*.myi
+*.dbf
+*.sqlitedb
+
+# ============================================
+# 日志/临时文件 - Logs & Temp
+# ============================================
+*.log
+*.logs
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.pid
+*.seed
+*.pid.lock
+
+# ============================================
+# IDE/编辑器文件 - IDE & Editors
+# ============================================
+# JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# Visual Studio
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.csproj
+*.vbproj
+*.vcxproj
+*.vcproj
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.moved-aside
+DerivedData/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim/Neovim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+.#*
+
+# ============================================
+# 操作系统文件 - OS Generated
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.nfs*
+
+# ============================================
+# 依赖/包管理 - Dependencies
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+.ruby-version
+.ruby-gemset
+
+# Java
+target/
+*.class
+*.war
+*.ear
+
+# ============================================
+# 构建输出 - Build Outputs
+# ============================================
+dist/
+build/
+out/
+release/
+Debug/
+Release/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# ============================================
+# 环境/配置 - Environment & Config
+# ============================================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# 密钥/证书 (重要！)
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.der
+id_rsa
+id_rsa.pub
+id_dsa
+id_dsa.pub
+id_ecdsa
+id_ecdsa.pub
+id_ed25519
+id_ed25519.pub
+known_hosts
+authorized_keys
+
+# ============================================
+# 其他常见忽略项 - Others
+# ============================================
+# 缓存
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+
+# 测试覆盖率
+coverage/
+.nyc_output/
+
+# 本地配置
+.local/
+
+# 大型媒体文件阈值 (可选，超过100MB的文件)
+# 使用 Git LFS 管理大文件，或直接忽略
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
