@@ -162,6 +162,7 @@
 *.pmd
 
 # 其他文档
+*.txt
 *.rtf
 *.odt
 *.ods
