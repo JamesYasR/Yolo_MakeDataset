@@ -3,8 +3,8 @@ import os
 from tqdm import tqdm
 
 # ========== 可调参数 ==========
-interval = 6  # 每隔多少帧保存一帧
-root_folder = "root"  # 输出子文件夹名，图片将保存到 ./images/root_folder
+interval = 5  # 每隔多少帧保存一帧
+root_folder = "yel6"  # 输出子文件夹名，图片将保存到 ./images/root_folder
 # =============================
 
 # 路径设置

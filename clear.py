@@ -41,8 +41,8 @@ def main():
 
     # 默认清理路径 - 用户可以在此处修改或添加
     paths_to_clean = [
-        "./images",
-        "./datasets",
+        "./images/yel",
+        "./dataset/xz_dataset/yel",
         "./labels"
         # 用户可以在此处添加更多路径，例如：
         # "./output",

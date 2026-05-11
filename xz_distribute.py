@@ -6,7 +6,7 @@ from tqdm import tqdm
 # ========== 可配置参数 ==========
 MOVE_RATIO = 0.2  # 要移动的图片比例
 TRAIN_RATIO = 0.7  # 移动到训练集的比例
-MIDDLE_FOLDER = "root"  # 中间文件夹名称
+MIDDLE_FOLDER = "yel2"  # 中间文件夹名称
 
 
 # ==============================
